@@ -120,6 +120,17 @@ Yessica Marcela Triana Cordoba
 
 Luis Fernando Meneses Caviedes
 
+Tema 2 - Historia y Ciclo de Vida de una Aplicación de Aprendizaje de Máquina
+
+El desarrollo de una aplicación de aprendizaje de máquina sigue un ciclo de vida estructurado que asegura que el modelo sea efectivo, preciso y útil. Cada etapa de este ciclo es crucial para el éxito del proyecto. A continuación, se describen las fases típicas en el ciclo de vida de una aplicación de aprendizaje de máquina, junto con ejemplos que ilustran cada paso.
+
+Introducción a Machine Learning (ML Zero to Hero, parte 1)
+Machine Learning representa un nuevo paradigma en la programación, donde en lugar de programar reglas explícitas en un lenguaje como Java o C ++, se entrena un sistema con datos para inferir las reglas por sí mismo. Pero ¿cómo es en realidad el ML?
+VIEW ON YouTube
+
+El Machine Learning es el camino a la IA, aquí aplicaremos el lenguaje Phyton, cuando se trata de programación tradición se aplican Reglas para procesar los datos y asi obtener un resultado, en Machine Learning invertimos los papeles y en lugar de brindarle las reglas le damos los resultados o los datos para obtener las reglas
+
+
 Sebastian de Jesus Garcia Lopez
 
 Valentina Cepeda Duque
