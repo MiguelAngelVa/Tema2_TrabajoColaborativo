@@ -353,8 +353,10 @@ Valentina Cepeda Duque
 Juan Diego Araque Muñoz
 
 José Luis Cardeño Tejada
+
+
 Se habla sobre el cilco de vida de una aplicación de aprendizaje de máquina.
-Se habla entonces del machene learning; como hacer que la computadora aprenda como un ser humano.
+Así el machene learning, sería el como hacer que la computadora aprenda como un ser humano.
 Hay una reglas en los que se aplican unos datos que finalmente generan respuestas o resultados.
 Ahora se invertiria el aprendizaje dandole las respuestas en forma de datos a la computadora y hacemos que la computadora haga las reglas
 
@@ -378,8 +380,9 @@ LA idea es seleccionar el modelo más adecuado (las mejores predicciones). Se de
 su desempeño utilizando el set de datos y elegir el mejor modelo que genere las mejores predicciones (establecer la metrica de 
 desempeño) es una formula matemática. RMSE Raiz cuadrada del error cuadratico medio (entre más pequeño ese valor, mejor)
 
-
 6. Despliegue: ponerlo en producción para ser utilizado en el entorno real (Mlops)
+
+7. Mantenimiento y actualización. Para brindar soporte constante a la IA
 
 Geovanny Vergara Ramírez 
 ****
