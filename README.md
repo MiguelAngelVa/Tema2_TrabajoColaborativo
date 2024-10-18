@@ -271,6 +271,60 @@ Juan Diego Araque Muñoz
 José Luis Cardeño Tejada
 
 Geovanny Vergara Ramírez 
+****
+Historia y ciclo de vida de una aplicación de Aprendizaje de Máquina
+
+El desarrollo de una aplicación de Aprendizaje de Máquina (Machine Learning) sigue un ciclo de vida compuesto por siete etapas principales:
+
+1. Identificación del problema
+2. Recolección de datos
+3. Preparación de datos
+4. Ingeniería de modelos
+5. Evaluación del modelo
+6. Despliegue
+7. Mantenimiento y actualización
+
+Para iniciar el desarrollo, es crucial comprender claramente el desafío a resolver y su contexto. Esto permite avanzar eficientemente en las etapas subsiguientes, que involucran el manejo de datos: recolección, limpieza y aseguramiento de calidad. Posteriormente, se procede al modelado analítico según las necesidades específicas del negocio.
+
+Es esencial evaluar el modelo para identificar posibles mejoras antes de realizar los despliegues correspondientes en producción.
+
+Tipos de Aprendizaje de Máquina:
+- Ciencia de datos, Matemáticas, Probabilidad estadística
+- Algoritmos de agrupación
+- Redes neuronales (incluyendo Aprendizaje profundo)
+- Algoritmos bayesianos
+- Algoritmos de regresión
+- Árboles de decisión
+
+Preparación de datos:
+1. Análisis exploratorio:
+   - Evaluación de valores nulos
+   - Identificación de datos faltantes
+   - Detección de duplicados
+   - Verificación de tipos de datos
+
+2. Limpieza de datos: Organización para prevenir errores en modelos analíticos futuros
+
+Tipos de análisis:
+- Exploratorio
+- Descriptivo
+- Relacional
+- Explicativo
+- Predictivo
+
+Analítica de datos:
+Una vez que los datos están limpios y son de calidad, se crean conjuntos de entrenamiento y prueba. Comúnmente, se utilizan proporciones de 70/30 o 80/20 para entrenamiento y prueba, respectivamente.
+
+Selección de modelo:
+1. Supervisado:
+   - Clasificación
+   - Regresión
+2. No supervisado:
+   - Agrupaciones (clustering)
+
+Este enfoque estructurado garantiza un desarrollo eficaz y eficiente de aplicaciones de Aprendizaje de Máquina, desde la conceptualización hasta la implementación y mantenimiento.
+
+****
 
 Carlos Perea
 
