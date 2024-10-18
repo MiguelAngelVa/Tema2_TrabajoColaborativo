@@ -634,6 +634,16 @@ etapas estructuradas que aseguran efectividad, precision y utilidad de una app
 Diana Maribel Balaguera Arroyave
 
 Sebastian Castañeda Garcia
+Machine Learning: Enseñale a una computadora a aprender de la misma forma en que aprende un humano
+en la programación tradicional se le dan la reglas a una computadora para que encuentre las respuestas en cambio en el machine learning se le dan las respuestas a la computadora y que sea la que encuentre las reglas. en un programa de machine learning, se obtiene un conjunto de datos con patrones inherentes y la computadora aprende cuales son esos patrones.
+
+CICLO DE VIDA DE UNA APLICACION DE APRENDIZAJE DE MAQUINA
+
+1 Identificación del problema
+2 recolección de datos, que sean relevantes, precisos y representativos del problema.
+3 Prepacion de datos; limpiándolos, manejando valores faltantes, normalizando y escalando características, y dividir los datos en conjuntos de entrenamiento y prueba.
+4 Ingeniería de modelos, se selecciónan y entrenan modelos de aprendizaje de maquina utilizando los datos preparados.
+
 
 Carlos Bolaños
 
