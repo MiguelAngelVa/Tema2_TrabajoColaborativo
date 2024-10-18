@@ -209,6 +209,23 @@ Es importante monitorear el desempeño del modelo y mantenerlo actualizado, los 
 Ejemplo:La empresa monitorea el modelo y lo compara con las ventas reales y lo reentrena con nuevos datos para aprovechar al máximo el potencial del modelo
 
 Victor Alfonso Gutierrez Lopez
+Resumen: Historia y Ciclo de Vida de una Aplicación de Aprendizaje de Máquina
+El ciclo de vida de una aplicación de aprendizaje de máquina sigue una serie de pasos estructurados para asegurar su efectividad y precisión.
+
+Identificación del problema: Se define el objetivo que el aprendizaje de máquina puede ayudar a alcanzar. Ejemplo: predecir la demanda de productos en una tienda.
+
+Recolección de datos: Se obtienen datos relevantes y precisos para entrenar el modelo. Ejemplo: datos históricos de ventas, tendencias de búsqueda, demografía y campañas de marketing.
+
+Preparación de datos: Los datos se limpian, normalizan y dividen en conjuntos de entrenamiento y prueba. Ejemplo: eliminación de duplicados y manejo de valores faltantes.
+
+Ingeniería de modelos: Se seleccionan y entrenan modelos, ajustando parámetros y creando características adicionales para optimizar resultados. Ejemplo: algoritmos de regresión y árboles de decisión.
+
+Evaluación del modelo: Se evalúa el modelo usando métricas como el error cuadrático medio (MSE) para asegurarse de su efectividad antes de implementarlo.
+
+Despliegue: El modelo se integra en el entorno de producción para hacer predicciones en tiempo real. Ejemplo: la predicción de demanda se usa para ajustar el inventario de una tienda.
+
+Mantenimiento y actualización: Se monitorea y actualiza el modelo continuamente, reentrenándolo con nuevos datos para mantener su relevancia. Ejemplo: ajuste del modelo en base a datos de ventas reales.
+
 
 Maritza Cristina Parra Jimenez
 
