@@ -180,6 +180,31 @@ Maritza Cristina Parra Jimenez
 
 Robinson Loaiza Davila
 
+# Historia y Ciclo de Vida de una Aplicación de Aprendizaje de Máquina
+
+# Machine Learning
+__Definicion:__ Enseñar a una computadora de la misma manera que se le enseña a un humano, 
+
+__1. Identificación del Problema:__ Definir claramente el objetivo del proyecto y determinar cómo ML puede ayudar a alcanzar el objetivo.
+
+__2. Recolección de los datos:__ Los datos serán utilizados para entrenar el modelo. Los datos deben ser relevantes, precisos y representativos.
+
+__3. Preparación de los datos:__ Implica limpiar los datos, manejar los valores faltantes, normalizar, escalar las características, y dividir los datos en conjuntos de entrenamiento y prueba.
+
+__4. Ingeniería de Modelos:__ Se entrenan modelos de aprendizaje de máquina utilizando los datos preparados. Esta etapa puede incluir la selección de algoritmos, la creación de características y la realización de ajustes de hiperparámetros para optimizar el rendimiento del modelo. (Algoritmos de regresión, y arboles de decisión).
+
+__5. Evaluación del Modelo:__ Esto implica medir la precisión, la exactitud y otras métricas (Pruebas). Parámetros: Variables numéricas internas e Hiperparámetros son variables numéricas externas, afinación de hiperparámetros.
+
+    •	Métricas de desempeño.
+    •	Posibles arquitecturas o tipos de modelos más adecuados.
+    •	Se entrena, se afina y se valida el modelo.
+    •	Se elige el modelo con mejor métrica de desempeño.
+
+__6 Despliegue:__ Llevarlo de una etapa de desarrollo a una etapa de producción para ser utilizado en un entorno real.
+
+__7. Mantenimiento y Actualización:__  Después del despliegue es necesario monitorear el desempeño, realizar actualizaciones periódicas para mantener la precisión y relevancia.
+
+
 Claudia Lorena Ramírez Franco
 
 Roberto Alejandro Sánchez
