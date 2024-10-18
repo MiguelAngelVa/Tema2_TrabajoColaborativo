@@ -91,6 +91,12 @@ Claudia Lorena Ramírez Franco
 
 Roberto Alejandro Sánchez
 
+## Analítica de datos
+
+Una vez se tienen los datos limpios y de calidad, se procede a tener conjuntos de entrenamiento y prueba de acuerdo a los modelos que vamos a utilizar.
+Esto permitirá al modelo aprender sobre los datos y posteriormente hacer testeo sobre ellos.
+Para estos conjuntos de entrenamientos se pueden tomar porciones de datos 70% para entrenamiento y 30% para testeo, ó tomar 80% para entrenamiento y 20% para testeo.
+
 Claudia Cardenas
 
 Luis Angel Montoya Suárez 
