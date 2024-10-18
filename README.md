@@ -90,6 +90,7 @@ Para estos conjuntos de entrenamientos se pueden tomar porciones de datos 70% pa
 
 
 Paula Jacobo Marin
+
 HISTORIA CICLO DE VIDA DE UNA APLICACIÓN DE APRENDIZAJE DE MAQUINA
 
 Es un modelo estructurado que sea efectivo, preciso y útil
@@ -110,19 +111,24 @@ Implementación: Integrar el modelo en la aplicación o sistema donde será util
 Monitoreo y Mantenimiento: Después de la implementación, es crucial monitorear el rendimiento del modelo en el entorno real. Esto incluye la detección de posibles sesgos, el ajuste de parámetros y la actualización del modelo con nuevos datos.
 Iteración y Mejora: Basado en el monitoreo, se pueden realizar iteraciones para mejorar el modelo, volviendo a algunas de las etapas anteriores según sea necesario.
 Recursos Principales necesarios para la aplicación de ML
-            DATOS DISPONIBLES
+
+  	DATOS DISPONIBLES
 
 
 Poder de cómputo	Técnicas estadísticas
 Se trata de crear modelos de observaciones y predicciones
+
 Observaciones
+
 •	Variables predictorias
 •	Variable independiente
 •	Características
+
 Predicciones
 •	Variables objetivas 
 •	Variables dependientes
 •	Etiquetas
+
 TIPOS DE DATOS ESTRUCTURADOS
 Datos de tipo numérico y datos categóricos
 •	Atributos de los datos
