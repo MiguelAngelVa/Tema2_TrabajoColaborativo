@@ -337,29 +337,37 @@ __7. Mantenimiento y Actualización:__  Después del despliegue es necesario mon
 
 Claudia Lorena Ramírez Franco
 
-Machine Learning (ML): Herramienta fundamental dentro de la inteligencia artificial (IA) que permite a las máquinas aprender y mejorar a partir de datos sin necesidad de ser programadas para cada tarea específica. Su importancia ha crecido en los últimos años debido a su capacidad para resolver problemas complejos y proporcionar soluciones basadas en el análisis de grandes volúmenes de información. Este enfoque se remonta a los inicios de la IA, con el emblemático proyecto de investigación en Dartmouth en 1956.
-2. Evolución del Machine Learning
+# Machine Learning (ML):
+Herramienta fundamental dentro de la inteligencia artificial (IA) que permite a las máquinas aprender y mejorar a partir de datos sin necesidad de ser programadas para cada tarea específica. Su importancia ha crecido en los últimos años debido a su capacidad para resolver problemas complejos y proporcionar soluciones basadas en el análisis de grandes volúmenes de información. Este enfoque se remonta a los inicios de la IA, con el emblemático proyecto de investigación en Dartmouth en 1956.
+## 2. Evolución del Machine Learning
 •	Arthur Samuel (1959): Definió el ML como una técnica mediante la cual una máquina adquiere la capacidad de aprender de los datos sin estar programada explícitamente para realizar cada tarea.
 •	Tom Mitchell (1998): Sugirió que una máquina "aprende" cuando su rendimiento en una tarea mejora gracias a la experiencia adquirida.
-3. Fases del ciclo de vida de una aplicación de ML
+##3. Fases del ciclo de vida de una aplicación de ML
 El desarrollo de una aplicación de aprendizaje automático sigue un proceso estructurado para garantizar que el modelo sea útil y preciso. Las principales etapas del ciclo de vida son:
-Definición del problema: El primer paso es identificar claramente el problema que se quiere resolver mediante el ML. Este paso incluye definir el objetivo y establecer cómo el aprendizaje automático puede aportar una solución. Ejemplo: Una tienda puede querer predecir cuáles productos serán los más vendidos en la próxima temporada para ajustar su inventario de manera eficiente.
-Recolección de datos: Se recopilan los datos necesarios para entrenar el modelo. Estos datos deben ser relevantes y de buena calidad para asegurar un entrenamiento efectivo. Ejemplo: Datos históricos de ventas, tendencias de búsqueda, información demográfica y resultados de campañas de marketing.
-Preparación de datos: Los datos generalmente no están listos para su uso directo, por lo que es necesario limpiarlos, gestionar valores faltantes y normalizar características importantes. Ejemplo: Una tienda podría eliminar duplicados, gestionar valores faltantes mediante imputación y normalizar los precios y cantidades vendidas.
-Construcción del modelo: En esta fase se seleccionan los algoritmos adecuados, se entrenan los modelos y se ajustan los hiperparámetros. Además, se pueden crear características adicionales a partir de los datos. Ejemplo: La tienda podría probar con diferentes algoritmos de regresión o árboles de decisión para predecir la demanda de productos.
-Evaluación del modelo: Se mide el rendimiento del modelo utilizando métricas específicas, como la precisión, el recall o el F1-score, y se evalúa si el modelo es adecuado para ser desplegado. Ejemplo: Utilizar métricas como el error cuadrático medio para determinar qué modelo ofrece mejores predicciones.
-Despliegue del modelo: Una vez evaluado, el modelo se implementa en un entorno de producción para que sea utilizado en aplicaciones reales. Ejemplo: El modelo de predicción de demanda se integra en el sistema de gestión de inventario de una tienda.
-Mantenimiento y actualización: El trabajo no termina con el despliegue. Se monitorea el rendimiento del modelo y se reentrena cuando es necesario para asegurar que siga siendo preciso y útil. Ejemplo: Si el rendimiento del modelo baja, la tienda recoge nuevos datos y reentrena el modelo para ajustar sus predicciones.
+### Definición del problema: 
+El primer paso es identificar claramente el problema que se quiere resolver mediante el ML. Este paso incluye definir el objetivo y establecer cómo el aprendizaje automático puede aportar una solución. Ejemplo: Una tienda puede querer predecir cuáles productos serán los más vendidos en la próxima temporada para ajustar su inventario de manera eficiente.
+### Recolección de datos: 
+Se recopilan los datos necesarios para entrenar el modelo. Estos datos deben ser relevantes y de buena calidad para asegurar un entrenamiento efectivo. Ejemplo: Datos históricos de ventas, tendencias de búsqueda, información demográfica y resultados de campañas de marketing.
+### Preparación de datos:
+Los datos generalmente no están listos para su uso directo, por lo que es necesario limpiarlos, gestionar valores faltantes y normalizar características importantes. Ejemplo: Una tienda podría eliminar duplicados, gestionar valores faltantes mediante imputación y normalizar los precios y cantidades vendidas.
+### Construcción del modelo:
+En esta fase se seleccionan los algoritmos adecuados, se entrenan los modelos y se ajustan los hiperparámetros. Además, se pueden crear características adicionales a partir de los datos. Ejemplo: La tienda podría probar con diferentes algoritmos de regresión o árboles de decisión para predecir la demanda de productos.
+### Evaluación del modelo: 
+Se mide el rendimiento del modelo utilizando métricas específicas, como la precisión, el recall o el F1-score, y se evalúa si el modelo es adecuado para ser desplegado. Ejemplo: Utilizar métricas como el error cuadrático medio para determinar qué modelo ofrece mejores predicciones.
+### Despliegue del modelo: 
+Una vez evaluado, el modelo se implementa en un entorno de producción para que sea utilizado en aplicaciones reales. Ejemplo: El modelo de predicción de demanda se integra en el sistema de gestión de inventario de una tienda.
+### Mantenimiento y actualización:
+El trabajo no termina con el despliegue. Se monitorea el rendimiento del modelo y se reentrena cuando es necesario para asegurar que siga siendo preciso y útil. Ejemplo: Si el rendimiento del modelo baja, la tienda recoge nuevos datos y reentrena el modelo para ajustar sus predicciones.
 Este ciclo garantiza que las aplicaciones de aprendizaje automático se desarrollen de forma eficiente y que sigan siendo útiles y relevantes con el tiempo.
-4. Problemas que puede resolver el ML
+## 4. Problemas que puede resolver el ML
 •	Clasificación: Asignar una categoría o clase a un dato, como en la detección de enfermedades.
 •	Regresión: Predecir un valor numérico, como el precio de un bien o servicio.
 •	Clustering: Agrupar datos en categorías sin etiquetas predefinidas, por ejemplo, en la segmentación de clientes.
-5. Tipos de aprendizaje
+## 5. Tipos de aprendizaje
 •	Supervisado: El modelo se entrena con datos etiquetados, lo que permite hacer predicciones basadas en un conjunto de variables predefinidas.
 •	Semisupervisado: Combina una pequeña cantidad de datos etiquetados con una gran cantidad de datos no etiquetados para mejorar el modelo.
 •	No supervisado: El modelo encuentra patrones y estructuras en los datos sin utilizar etiquetas, lo que es útil para tareas como el agrupamiento o la detección de anomalías.
-6. Herramientas y recursos relevantes
+## 6. Herramientas y recursos relevantes
 Hoy en día, existen muchas herramientas que facilitan el desarrollo de aplicaciones de aprendizaje automático. Modelos como GPT-4, DALL-E y herramientas como AutoGPT y Stable Diffusion son algunas de las más avanzadas para la generación de contenido y predicciones en tiempo real.
 
 
