@@ -309,6 +309,33 @@ Valentina Cepeda Duque
 Juan Diego Araque Muñoz
 
 José Luis Cardeño Tejada
+Se habla sobre el cilco de vida de una aplicación de aprendizaje de máquina.
+Se habla entonces del machene learning; como hacer que la computadora aprenda como un ser humano.
+Hay una reglas en los que se aplican unos datos que finalmente generan respuestas o resultados.
+Ahora se invertiria el aprendizaje dandole las respuestas en forma de datos a la computadora y hacemos que la computadora haga las reglas
+
+
+Fases de ciclo de vida:
+
+1. Identificación del problema: ----> Objetivo del proyecto y dererminar como el aprendizaje de la máquina puede ayudar a alcanzar este objetivo.
+
+2. Recolección de datos: con ellos se entrenará el modelo.
+Los datos debe ser relevantes y precisos del problema que se está tratando resolver.
+
+3. Preparación de datos: implica limpiar los datos, manejas los valores faltantes, normalizar y escalar las características
+y dividir los datos en conjuntos de entrenamiento y prueba.
+Ej: limpiar datos duplicados, manejo valores faltantes, normalizae caracteristicas como precios y cantidades, etc.
+
+4. Ingeniería de modelos: selección y entrenamiento de modelos de aprendizaje. En esta etapa puede incluir la selección de algoritmos, 
+ajustes de hiperparamtros
+
+5. Evaluación del modelo: después de entrenada la IA, hay que evaluar su desempeño. Medir la precisiónexcatitud, el recall, etc.
+LA idea es seleccionar el modelo más adecuado (las mejores predicciones). Se debe entonces entrenar mulrtiples modelos y evaluar
+su desempeño utilizando el set de datos y elegir el mejor modelo que genere las mejores predicciones (establecer la metrica de 
+desempeño) es una formula matemática. RMSE Raiz cuadrada del error cuadratico medio (entre más pequeño ese valor, mejor)
+
+
+6. Despliegue: ponerlo en producción para ser utilizado en el entorno real (Mlops)
 
 Geovanny Vergara Ramírez 
 ****
