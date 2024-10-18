@@ -303,6 +303,27 @@ El Machine Learning es el camino a la IA, aquí aplicaremos el lenguaje Phyton, 
 
 
 Sebastian de Jesus Garcia Lopez
+las fases de un ciclo de vida de una aplicacion de aprendizaje de maquina son:
+
+* Identificación del problema: Se define el objetivo del proyecto, determinando cómo el ML puede solucionar el problema identificado. Por ejemplo, una empresa podría querer predecir la demanda de productos para optimizar su inventario.
+
+* Recolección de datos: Se recopilan datos relevantes que alimentarán el modelo, asegurando que sean representativos y de calidad. En nuestro ejemplo, la empresa recogería datos de ventas históricas, demografía y campañas de marketing.
+
+* Preparación de datos: Los datos crudos se limpian y preparan para el entrenamiento. Esto incluye eliminar duplicados, manejar valores faltantes, normalizar características y dividir los datos en conjuntos de entrenamiento y prueba.
+
+* Ingeniería de modelos: Se seleccionan y entrenan los modelos utilizando algoritmos adecuados. También se ajustan los hiperparámetros y se realizan mejoras en la representación de las características.
+
+* Evaluación del modelo: El rendimiento del modelo se evalúa usando diversas métricas, como la precisión, exactitud y F1-score. Esto permite seleccionar el mejor modelo para resolver el problema.
+
+* Despliegue: El modelo se integra en sistemas productivos, como una API o un sistema de gestión de inventario en tiempo real.
+
+* Mantenimiento y actualización: El ciclo continúa después del despliegue. Se monitorea el rendimiento del modelo y, si es necesario, se actualiza o reentrena con nuevos datos.
+
+Este ciclo de vida permite que los sistemas de ML se mantengan eficientes y alineados con los objetivos del negocio a lo largo del tiempo.
+
+En resumen el ciclo de vida de una aplicación de aprendizaje de máquina comienza con la identificación del problema, donde se define el objetivo del proyecto. Luego se realiza la recolección de datos relevantes para alimentar el modelo. Después, los datos se preparan para el modelo mediante la limpieza y normalización. En la fase de ingeniería de modelos, se seleccionan algoritmos y se entrenan modelos que luego se evalúan. Una vez seleccionado el mejor modelo, se despliega en producción, y finalmente se realiza un mantenimiento continuo para asegurar su relevancia y precisión.
+
+
 
 Valentina Cepeda Duque
 
