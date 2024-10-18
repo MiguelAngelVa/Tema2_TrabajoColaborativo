@@ -301,6 +301,22 @@ Claudia Lorena Ramírez Franco
 Roberto Alejandro Sánchez
 
 Claudia Cardenas
+1. Identificar el Problema 
+Determinar el objetivo
+2. Recolectar Datos
+Relevantes, precisos, representativos
+3. Preparacion de Datos
+Limpiarlos, completar faltantes…
+4. Ingenieria de modelos
+Seleccionar algoritmos, determinar características y realizar ajustes de hiperparametros
+5. Evaluar modelos
+Mirar precision y exactitud
+6. Despliegue o Implementacion
+Ponerlo a producir = pasar del dllo a la implementacion
+7. mantenimiento y actualizacion
+Corregir errores y fallas del modelo y/o actualizarlo.
+
+
 
 Luis Angel Montoya Suárez 
 
