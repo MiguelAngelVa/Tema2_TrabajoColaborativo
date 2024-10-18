@@ -398,7 +398,29 @@ Corregir errores y fallas del modelo y/o actualizarlo.
 
 
 
-Luis Angel Montoya Suárez 
+
+Luis Angel Montoya Suárez
+## Ciclo de vida de una aplicación de  de aprendizaje de máquina
+
+1. Identificación de un problema
+2. Recoración de datos
+3.  Reparación de datos
+4.  Ingeniería de modelos. 
+5.  Evaluación del modelo
+6. Despliegue
+7. Mantenimiento de actualización
+
+          ## Diagrama procesos Machine Learning
+
+1. Recolección de datos
+2. Exploración de datos
+3. Reprocesamiento
+4. Entrenamiento del modelo
+5. Evaluación del modelo
+6. Refinamiento del modelo
+7. Despliegue de modelo
+
+   TIPOS DE BASES DATOS
 
 Yessica Marcela Triana Cordoba
 
