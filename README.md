@@ -442,6 +442,40 @@ Diana Carolina Arias Valencia
 
 Edisson Ferley Echavarria Marin
 
+## Ciclo de vida de una app
+
+etapas estructuradas que aseguran efectividad, precision y utilidad de una app
+
+# fases tipicas
+
+# identificaion del problema
+	Implica objetivo del proyecto y como es relevante el aprendizaje de maquina para la resolucion
+
+# Recoleccion de datos
+	para entrenar modelo, deben ser relevantes, precisos y representativos
+
+# Preparacion de datos
+	filtrar datos de valores faltantes, duplicados, escalar, nulos, rellenar; dividir en datos de entrenamiento y prueba
+
+# Ingenieria de modelos
+	seleccion y entrenamiento de modelos con datos preparados. Modelos: Regresion, arboles de decision
+
+# Evaluacion del modelo
+	evaluar desempeño de modelo entrenado: precision(MSE error cuadratico medio, r-cuadrada), exactitud, recall, f1-score. Determina si modelo es suficientemente bueno. 
+
+# Mejores predicciones
+		parametros: variables nuemericas internas que el modelo aprende el algoritmo de entrenamiento
+		hiperparametros: variable numericos extenas que se ajustan cuando se crea algoritmo
+		afinacion de hiperparametros: encontrar mejores valores para generar mejores predicciones
+		set de datos entrenamiento, validadcion y pruebas
+		validacion cruzada
+  
+# Despliegue
+	poner modelo en produccion, implica integracion a modelos existentes
+
+# Mtto y actualizacion
+	monitoreo de desempeño, actualizacion periodicas para precision y relevancia, puede implicar reentrenar con nuevos datos o ajustar parametros
+
 Diana Maribel Balaguera Arroyave
 
 Sebastian Castañeda Garcia
