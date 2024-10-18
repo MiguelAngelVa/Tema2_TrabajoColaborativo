@@ -381,6 +381,22 @@ Esto permitirá al modelo aprender sobre los datos y posteriormente hacer testeo
 Para estos conjuntos de entrenamientos se pueden tomar porciones de datos 70% para entrenamiento y 30% para testeo, ó tomar 80% para entrenamiento y 20% para testeo.
 
 Claudia Cardenas
+1. Identificar el Problema 
+Determinar el objetivo
+2. Recolectar Datos
+Relevantes, precisos, representativos
+3. Preparacion de Datos
+Limpiarlos, completar faltantes…
+4. Ingenieria de modelos
+Seleccionar algoritmos, determinar características y realizar ajustes de hiperparametros
+5. Evaluar modelos
+Mirar precision y exactitud
+6. Despliegue o Implementacion
+Ponerlo a producir = pasar del dllo a la implementacion
+7. mantenimiento y actualizacion
+Corregir errores y fallas del modelo y/o actualizarlo.
+
+
 
 Luis Angel Montoya Suárez 
 
