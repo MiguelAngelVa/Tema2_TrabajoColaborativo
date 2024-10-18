@@ -344,6 +344,34 @@ Carlos Perea
 
 Juan Pablo Guzmán Moreno
 
+###1. Entender el problema
+Primero, tienes que saber bien cuál es el problema que quieres resolver con ia. ¿Qué necesitas mejorar o predecir usando los datos?
+
+###2. Reunir y preparar los datos
+Luego, debes buscar los datos necesarios para resolver el problema. Puede ser información de clientes, ventas, imágenes, etc.
+Después, es importante limpiar esos datos: quitar errores, completar datos que faltan y organizarlos para que el modelo los entienda bien.
+
+###3. Dividir los datos
+Separas los datos en dos grupos: uno para entrenar el modelo y otro para probar qué tan bien funciona.
+A veces también divides los datos en más partes para probar varias veces que el modelo funciona bien en diferentes escenarios.
+
+###4. Elegir el modelo
+Ahora, eliges qué tipo de modelo usar (hay muchos tipos, como los que predicen números o clasifican cosas en categorías).
+Luego, entrenas el modelo con los datos para que "aprenda" a hacer predicciones.
+
+###5. Evaluar el modelo
+Cuando el modelo ya ha aprendido, lo pruebas para ver qué tan bien predice.
+Si no lo hace bien, ajustas algunas configuraciones para mejorar los resultados.
+
+###6. Ponerlo a funcionar
+Una vez que el modelo está listo, lo integras en una aplicación o sistema real, para que pueda hacer predicciones en el día a día.
+También necesitas vigilarlo para asegurarte de que sigue funcionando bien.
+
+###7. Mantener y mejorar
+Con el tiempo, los datos pueden cambiar o el modelo puede dejar de ser tan efectivo, así que es importante actualizarlo y entrenarlo de nuevo con datos más recientes.
+Siempre puedes seguir mejorando el modelo para que sea más preciso.
+Este proceso es cíclico, lo que significa que siempre puedes volver a pasos anteriores para mejorar el modelo o adaptarlo a nuevas necesidades.
+
 Maria Camila Castro Isa
 
 Diana Carolina Arias Valencia
