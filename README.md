@@ -395,6 +395,8 @@ El desarrollo de una aplicación de Aprendizaje de Máquina (Machine Learning) s
 6. Despliegue
 7. Mantenimiento y actualización
 
+<img src="ImagenGeo.svg" alt="sets" width="366" height="230">
+
 Para iniciar el desarrollo, es crucial comprender claramente el desafío a resolver y su contexto. Esto permite avanzar eficientemente en las etapas subsiguientes, que involucran el manejo de datos: recolección, limpieza y aseguramiento de calidad. Posteriormente, se procede al modelado analítico según las necesidades específicas del negocio.
 
 Es esencial evaluar el modelo para identificar posibles mejoras antes de realizar los despliegues correspondientes en producción.
