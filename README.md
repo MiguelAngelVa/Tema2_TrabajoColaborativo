@@ -72,6 +72,58 @@ Para estos conjuntos de entrenamientos se pueden tomar porciones de datos 70% pa
 Paula Rocio Jacobo Marin
 
 Daniel Calle Pulgarin
+Ciclo de vida 
+El desarrollo de una aplicación de aprendizaje de máquina sigue un ciclo de vida estructurado que asegura que el modelo sea efectivo, preciso y útil. Esto se lleva a cabo por medio de unas etapas o fases :
+Machine learning 
+Machine Learning representa un nuevo paradigma en la programación, donde en lugar de programar reglas explícitas en un lenguaje como Java o C ++, se entrena un sistema con datos para inferir las reglas por sí mismo.
+Identificación del problema
+El primer paso en el ciclo de vida de una aplicación de aprendizaje automático es identificar el problema que se quiere resolver. Esto significa definir claramente el objetivo del proyecto y determinar de qué manera el aprendizaje automático puede ayudar a lograrlo.
+Recolección de datos 
+Después de identificar el problema, el siguiente paso es recopilar datos. Estos datos se usarán para entrenar el modelo. Es crucial que los datos sean relevantes, precisos y representen bien el problema que se quiere solucionar.
+Preparación de datos
+Los datos en bruto casi nunca están listos para ser utilizados directamente en el entrenamiento del modelo. La fase de preparación de datos consiste en limpiar los datos, gestionar los valores faltantes, normalizar y escalar las características, y dividirlos en conjuntos de entrenamiento y prueba.
+Ingeniería de modelos
+En esta etapa, se eligen y entrenan los modelos de aprendizaje automático con los datos ya preparados. Esto incluye seleccionar los algoritmos, realizar ingeniería de características (feature engineering) y ajustar los hiperparámetros para optimizar el rendimiento del modelo.
+Evaluación del modelo
+Después de entrenar el modelo, es fundamental evaluar su desempeño. Esto se hace midiendo métricas como la precisión, exactitud, recall y F1-score, utilizando el conjunto de prueba. La evaluación permite verificar si el modelo es lo suficientemente bueno para ser implementado.
+
+¿Cómo seleccionar el mejor modelo en un problema de machine learning?
+1. Definir el problema y las métricas de evaluación
+•	Antes de seleccionar un modelo, es crucial definir el tipo de problema (clasificación, regresión, etc.) y las métricas adecuadas para evaluarlo. Las métricas comunes incluyen:
+o	Precisión (Accuracy): Qué tan bien el modelo clasifica correctamente.
+o	Recall: Qué porcentaje de los casos positivos son detectados correctamente.
+o	F1-Score: El balance entre precisión y recall.
+o	MSE (Mean Squared Error): Usada para regresión.
+o	AUC-ROC: Para medir el rendimiento en clasificación binaria.
+2. Seleccionar un conjunto de modelos candidatos
+•	Elige varios modelos que puedan ser adecuados para tu problema, como:
+o	Regresión lineal o logística
+o	Árboles de decisión
+o	Random Forest
+o	Gradient Boosting Machines (GBM)
+o	Redes neuronales
+o	SVM (Máquinas de Soporte Vectorial)
+3. Dividir los datos en conjuntos de entrenamiento y prueba
+•	Usa una parte de los datos para entrenar y otra para probar el rendimiento de los modelos. A menudo, se utiliza una división 80-20 o 70-30.
+4. Entrenar y ajustar los modelos
+•	Entrena cada modelo con el conjunto de entrenamiento y realiza ajustes de hiperparámetros usando técnicas como:
+o	Búsqueda en cuadrícula (Grid Search) o Búsqueda aleatoria (Random Search).
+o	Validación cruzada (Cross-Validation): Divide los datos en varios subconjuntos para asegurar que el modelo generaliza bien.
+5. Comparar el rendimiento en el conjunto de prueba
+•	Evalúa el rendimiento de cada modelo usando las métricas definidas y compara los resultados. El modelo con mejor rendimiento en la métrica más relevante será el mejor candidato.
+6. Evitar el sobreajuste
+•	Asegúrate de que el modelo no esté sobreajustado a los datos de entrenamiento, lo que podría dar un alto rendimiento en entrenamiento pero pobre en prueba. Esto se puede verificar revisando si hay una gran diferencia entre el rendimiento en el entrenamiento y el de prueba.
+7. Interpretabilidad vs. Complejidad
+•	A veces, el mejor modelo no solo es el más preciso, sino también el más fácil de interpretar. Modelos como regresión lineal o árboles de decisión son más simples de interpretar en comparación con redes neuronales profundas.
+8. Pruebas adicionales o validación externa
+•	Si es posible, valida el modelo en un conjunto de datos externos que no se usaron en el entrenamiento para verificar que funcione bien en datos nuevos.
+9. Seleccionar el modelo con mejor equilibrio
+•	El mejor modelo será el que tenga el mejor rendimiento en las métricas clave, que no esté sobreajustado y que sea lo suficientemente interpretable y eficiente para el propósito del proyecto.
+Despliegue 
+Desplegar el modelo significa ponerlo en funcionamiento en un entorno real para que pueda ser utilizado. Esto puede requerir integrar el modelo en aplicaciones ya existentes, crear APIs para que otras aplicaciones interactúen con él, y configurar la infraestructura necesaria para gestionar las predicciones en tiempo real.
+Mantenimiento y actualización 
+El ciclo de vida de una aplicación de aprendizaje automático no finaliza con el despliegue. Es crucial monitorear el rendimiento del modelo en producción y realizar actualizaciones periódicas para asegurar su precisión y relevancia. Esto puede incluir reentrenar el modelo con nuevos datos o ajustar sus parámetros según sea necesario.
+
 
 *******************************************************************
 #Jaime Andrés Londoño Acevedo
