@@ -90,45 +90,6 @@ Para estos conjuntos de entrenamientos se pueden tomar porciones de datos 70% pa
 
 
 Paula Rocio Jacobo Marin
-HISTORIA CICLO DE VIDA DE UNA APLICACIÓN DE APRENDIZAJE DE MAQUINA
-Es un modelo estructurado que sea efectivo, preciso y útil
-Primero que todo debemos tener un problema o una necesidad a resolver, un proceso que donde se deben registrar métricas globales en el desempeño del modelo y compararlo con un nivel de referencia.
-1.	Servidores remotos
-2.	Desarrollo
-3.	Producción
-4.	Despliegue
-5.	Monitoreo
-Este último para detectar posibles fallos de software o fallas en el modelo, registrando métricas globales en el desempeño del modelo y compararlo con un nivel de referencia.
-Definición del Problema: Identificar el problema específico que se quiere resolver y establecer los objetivos del proyecto.
-Recopilación de Datos: Reunir datos relevantes que alimentarán el modelo. Esto puede incluir datos históricos, datos en tiempo real o datos generados artificialmente.
-Preprocesamiento de Datos: Limpiar y transformar los datos para hacerlos aptos para el modelo. Esto incluye la eliminación de valores atípicos, el tratamiento de datos faltantes y la normalización.
-Análisis Exploratorio de Datos: Explorar los datos para entender patrones, tendencias y relaciones. Esta etapa ayuda a informar las decisiones sobre la selección de características.
-Selección y Entrenamiento del Modelo: Elegir un algoritmo de aprendizaje de máquina adecuado y entrenar el modelo utilizando los datos preprocesados. Esto implica ajustar hiperparámetros y evaluar el rendimiento del modelo.
-Evaluación del Modelo: Validar el modelo utilizando métricas como precisión, Esto puede incluir la división de los datos en conjuntos de entrenamiento y prueba.
-Implementación: Integrar el modelo en la aplicación o sistema donde será utilizado. Esto puede incluir la creación de una API o la incorporación en un software existente.
-Monitoreo y Mantenimiento: Después de la implementación, es crucial monitorear el rendimiento del modelo en el entorno real. Esto incluye la detección de posibles sesgos, el ajuste de parámetros y la actualización del modelo con nuevos datos.
-Iteración y Mejora: Basado en el monitoreo, se pueden realizar iteraciones para mejorar el modelo, volviendo a algunas de las etapas anteriores según sea necesario.
-Recursos Principales necesarios para la aplicación de ML
-            DATOS DISPONIBLES
-
-
-Poder de cómputo	Técnicas estadísticas
-Se trata de crear modelos de observaciones y predicciones
-Observaciones
-•	Variables predictorias
-•	Variable independiente
-•	Características
-Predicciones
-•	Variables objetivas 
-•	Variables dependientes
-•	Etiquetas
-TIPOS DE DATOS ESTRUCTURADOS
-Datos de tipo numérico y datos categóricos
-•	Atributos de los datos
-•	Tipos de análisis
-A partir de cierta información, determinar si ocurre o no un evento.
-
-
 
 Daniel Calle Pulgarin
 Ciclo de vida 
@@ -337,37 +298,29 @@ __7. Mantenimiento y Actualización:__  Después del despliegue es necesario mon
 
 Claudia Lorena Ramírez Franco
 
-# Machine Learning (ML):
-Herramienta fundamental dentro de la inteligencia artificial (IA) que permite a las máquinas aprender y mejorar a partir de datos sin necesidad de ser programadas para cada tarea específica. Su importancia ha crecido en los últimos años debido a su capacidad para resolver problemas complejos y proporcionar soluciones basadas en el análisis de grandes volúmenes de información. Este enfoque se remonta a los inicios de la IA, con el emblemático proyecto de investigación en Dartmouth en 1956.
-## 2. Evolución del Machine Learning
+Machine Learning (ML): Herramienta fundamental dentro de la inteligencia artificial (IA) que permite a las máquinas aprender y mejorar a partir de datos sin necesidad de ser programadas para cada tarea específica. Su importancia ha crecido en los últimos años debido a su capacidad para resolver problemas complejos y proporcionar soluciones basadas en el análisis de grandes volúmenes de información. Este enfoque se remonta a los inicios de la IA, con el emblemático proyecto de investigación en Dartmouth en 1956.
+2. Evolución del Machine Learning
 •	Arthur Samuel (1959): Definió el ML como una técnica mediante la cual una máquina adquiere la capacidad de aprender de los datos sin estar programada explícitamente para realizar cada tarea.
 •	Tom Mitchell (1998): Sugirió que una máquina "aprende" cuando su rendimiento en una tarea mejora gracias a la experiencia adquirida.
-##3. Fases del ciclo de vida de una aplicación de ML
+3. Fases del ciclo de vida de una aplicación de ML
 El desarrollo de una aplicación de aprendizaje automático sigue un proceso estructurado para garantizar que el modelo sea útil y preciso. Las principales etapas del ciclo de vida son:
-### Definición del problema: 
-El primer paso es identificar claramente el problema que se quiere resolver mediante el ML. Este paso incluye definir el objetivo y establecer cómo el aprendizaje automático puede aportar una solución. Ejemplo: Una tienda puede querer predecir cuáles productos serán los más vendidos en la próxima temporada para ajustar su inventario de manera eficiente.
-### Recolección de datos: 
-Se recopilan los datos necesarios para entrenar el modelo. Estos datos deben ser relevantes y de buena calidad para asegurar un entrenamiento efectivo. Ejemplo: Datos históricos de ventas, tendencias de búsqueda, información demográfica y resultados de campañas de marketing.
-### Preparación de datos:
-Los datos generalmente no están listos para su uso directo, por lo que es necesario limpiarlos, gestionar valores faltantes y normalizar características importantes. Ejemplo: Una tienda podría eliminar duplicados, gestionar valores faltantes mediante imputación y normalizar los precios y cantidades vendidas.
-### Construcción del modelo:
-En esta fase se seleccionan los algoritmos adecuados, se entrenan los modelos y se ajustan los hiperparámetros. Además, se pueden crear características adicionales a partir de los datos. Ejemplo: La tienda podría probar con diferentes algoritmos de regresión o árboles de decisión para predecir la demanda de productos.
-### Evaluación del modelo: 
-Se mide el rendimiento del modelo utilizando métricas específicas, como la precisión, el recall o el F1-score, y se evalúa si el modelo es adecuado para ser desplegado. Ejemplo: Utilizar métricas como el error cuadrático medio para determinar qué modelo ofrece mejores predicciones.
-### Despliegue del modelo: 
-Una vez evaluado, el modelo se implementa en un entorno de producción para que sea utilizado en aplicaciones reales. Ejemplo: El modelo de predicción de demanda se integra en el sistema de gestión de inventario de una tienda.
-### Mantenimiento y actualización:
-El trabajo no termina con el despliegue. Se monitorea el rendimiento del modelo y se reentrena cuando es necesario para asegurar que siga siendo preciso y útil. Ejemplo: Si el rendimiento del modelo baja, la tienda recoge nuevos datos y reentrena el modelo para ajustar sus predicciones.
+Definición del problema: El primer paso es identificar claramente el problema que se quiere resolver mediante el ML. Este paso incluye definir el objetivo y establecer cómo el aprendizaje automático puede aportar una solución. Ejemplo: Una tienda puede querer predecir cuáles productos serán los más vendidos en la próxima temporada para ajustar su inventario de manera eficiente.
+Recolección de datos: Se recopilan los datos necesarios para entrenar el modelo. Estos datos deben ser relevantes y de buena calidad para asegurar un entrenamiento efectivo. Ejemplo: Datos históricos de ventas, tendencias de búsqueda, información demográfica y resultados de campañas de marketing.
+Preparación de datos: Los datos generalmente no están listos para su uso directo, por lo que es necesario limpiarlos, gestionar valores faltantes y normalizar características importantes. Ejemplo: Una tienda podría eliminar duplicados, gestionar valores faltantes mediante imputación y normalizar los precios y cantidades vendidas.
+Construcción del modelo: En esta fase se seleccionan los algoritmos adecuados, se entrenan los modelos y se ajustan los hiperparámetros. Además, se pueden crear características adicionales a partir de los datos. Ejemplo: La tienda podría probar con diferentes algoritmos de regresión o árboles de decisión para predecir la demanda de productos.
+Evaluación del modelo: Se mide el rendimiento del modelo utilizando métricas específicas, como la precisión, el recall o el F1-score, y se evalúa si el modelo es adecuado para ser desplegado. Ejemplo: Utilizar métricas como el error cuadrático medio para determinar qué modelo ofrece mejores predicciones.
+Despliegue del modelo: Una vez evaluado, el modelo se implementa en un entorno de producción para que sea utilizado en aplicaciones reales. Ejemplo: El modelo de predicción de demanda se integra en el sistema de gestión de inventario de una tienda.
+Mantenimiento y actualización: El trabajo no termina con el despliegue. Se monitorea el rendimiento del modelo y se reentrena cuando es necesario para asegurar que siga siendo preciso y útil. Ejemplo: Si el rendimiento del modelo baja, la tienda recoge nuevos datos y reentrena el modelo para ajustar sus predicciones.
 Este ciclo garantiza que las aplicaciones de aprendizaje automático se desarrollen de forma eficiente y que sigan siendo útiles y relevantes con el tiempo.
-## 4. Problemas que puede resolver el ML
+4. Problemas que puede resolver el ML
 •	Clasificación: Asignar una categoría o clase a un dato, como en la detección de enfermedades.
 •	Regresión: Predecir un valor numérico, como el precio de un bien o servicio.
 •	Clustering: Agrupar datos en categorías sin etiquetas predefinidas, por ejemplo, en la segmentación de clientes.
-## 5. Tipos de aprendizaje
+5. Tipos de aprendizaje
 •	Supervisado: El modelo se entrena con datos etiquetados, lo que permite hacer predicciones basadas en un conjunto de variables predefinidas.
 •	Semisupervisado: Combina una pequeña cantidad de datos etiquetados con una gran cantidad de datos no etiquetados para mejorar el modelo.
 •	No supervisado: El modelo encuentra patrones y estructuras en los datos sin utilizar etiquetas, lo que es útil para tareas como el agrupamiento o la detección de anomalías.
-## 6. Herramientas y recursos relevantes
+6. Herramientas y recursos relevantes
 Hoy en día, existen muchas herramientas que facilitan el desarrollo de aplicaciones de aprendizaje automático. Modelos como GPT-4, DALL-E y herramientas como AutoGPT y Stable Diffusion son algunas de las más avanzadas para la generación de contenido y predicciones en tiempo real.
 
 
@@ -381,34 +334,9 @@ Esto permitirá al modelo aprender sobre los datos y posteriormente hacer testeo
 Para estos conjuntos de entrenamientos se pueden tomar porciones de datos 70% para entrenamiento y 30% para testeo, ó tomar 80% para entrenamiento y 20% para testeo.
 
 Claudia Cardenas
-1. Identificar el Problema 
-Determinar el objetivo
-2. Recolectar Datos
-Relevantes, precisos, representativos
-3. Preparacion de Datos
-Limpiarlos, completar faltantes…
-4. Ingenieria de modelos
-Seleccionar algoritmos, determinar características y realizar ajustes de hiperparametros
-5. Evaluar modelos
-Mirar precision y exactitud
-6. Despliegue o Implementacion
-Ponerlo a producir = pasar del dllo a la implementacion
-7. mantenimiento y actualizacion
-Corregir errores y fallas del modelo y/o actualizarlo.
 
+Luis Angel Montoya Suárez 
 
-
-Luis Angel Montoya Suárez
-Diagrama de procesos ML
-1. Identificación de un problema
-2. Recoración de datos
-3.  Reparación de datos
-4.  Ingeniería de modelos. 
-5.  Evaluación del modelo
-6. Despliegue
-7. Mantenimiento de actualización
-
-   
 Yessica Marcela Triana Cordoba
 
 Luis Fernando Meneses Caviedes
@@ -659,18 +587,89 @@ Diana Maribel Balaguera Arroyave
 
 Sebastian Castañeda Garcia
 
-Machine Learning: Enseñale a una computadora a aprender de la misma forma en que aprende un humano
-en la programación tradicional se le dan la reglas a una computadora para que encuentre las respuestas en cambio en el machine learning se le dan las respuestas a la computadora y que sea la que encuentre las reglas. en un programa de machine learning, se obtiene un conjunto de datos con patrones inherentes y la computadora aprende cuales son esos patrones.
-
-CICLO DE VIDA DE UNA APLICACION DE APRENDIZAJE DE MAQUINA
-
-1 Identificación del problema
-2 recolección de datos, que sean relevantes, precisos y representativos del problema.
-3 Prepacion de datos; limpiándolos, manejando valores faltantes, normalizando y escalando características, y dividir los datos en conjuntos de entrenamiento y prueba.
-4 Ingeniería de modelos, se selecciónan y entrenan modelos de aprendizaje de maquina utilizando los datos preparados.
-
-
 Carlos Bolaños
 
 Aurelio Cheveroni
 El texto del resumen.
+
+************************************************************************
+# Tema 2 Historia Ciclo de vida de una aplicación de Aprendizaje de Máquina (AM)
+## Resumen 
+### Video: Introduccion a Machine Learning
+- El cerebro humano reconoce lo que esta viendo, la inteligencia artificial limita el reconocimiento a los datos que tenga
+- Reglas + Datos --PrgramacionTradicion--> Resultados
+- Machine Learning: Dar respuesta a programa, y que reconozca en un conjunto de datos aquellos que tengas esas caracteristicas
+- Funcion de perdida y optimizados (mejora la aproximacion) --> Parametros clave para ML
+
+### Fases tipicas en el ciclo de vida de una aplicación de AM
+1. **Identificacion del Problema**
+Definir el objetivo del proyecto y determinar el AM que puede ayudar a darle solucion.
+
+2. **Recolección de Datos**
+Obtencion de datos *relevantes, precisos y representativos*.
+
+3. **Preparación de Datos**
+Limpiar datos, caracterizar valores faltantes, normalizar y escalar las caracteristicas, y dividir los datos en conjuntos de entrenamiento y prueba.
+
+4. **Ingenieria de Modelos**
+Seleccion y entranamiento de modelos de AM. Incluye seleccion de algoritmos, creacion de caracteristicas y realizacion de ajustes de hiperparámetros.
+
+5. **Evaluación del Modelo**
+Desempeño y evaluacion piloto en función de la precisión, la exactitud, el recall, la F1-score, entre otras métricas.
+
+### Video: ¿Cómo seleccionar el MEJOR MODELO en un problema de Machine Learning?
+- Mejor modelo = Mejores predicciones
+- Parametros: Variables numericas internas que el algoritmo aprende
+- Hiperparámetros: Variables numericas externas, se dijan al programar el algoritmo.
+- Afinacion de hiperparametro: Seleccion de mejores valores hiperparametros
+- Para evaluar el modelos, se pude hacer:
+    - Sets de entrenamiento, validacion y prueba.
+    - Validacion cruzada y *k-fold cross-validation*.
+- Prediccion: Calculo de valor numerico, apartir de datos numericos de entrada.
+- Metrica de Desempeño: Formula matematica, que permite estimar la eficiencia del modelo. Eje: RMSE: Root Mean Square Error
+![alt text](RMSE.JPG)
+- Entre menor sea el valor de RMSE, mejores seran las predicciones
+- **Modelos de ML:** Maquina de Soporte Vectorial, Bosque Aleatorio, Red Neuronal
+- Aquel modelo que obtenga un RMSE menor, sera mejor la prediccion.
+- El modelo tambien depende de la capacidad del equipo que corre el programa de ML.
+
+6. **Despliegue**
+Poner a trabajar el modelo en un entorno real.
+
+### Video: El DESPLIEGUE en el Machine Learning (MLOps)
+- Machine Learning Enginnering: Conjunt de practicas, que busca lograr el desplieuge de modelos de ML de forma *eficiente*.
+- Requerimientos para elegir el tipo de despliegue:
+    - Tipo de prediccion: En tiempo real (prediccion inmediata) o por lotes (prediccion no inmediata)
+    - Latencia: Tiempo de respuesta requerido, desde la introduccion de la informacion y la prediccion
+    - Rendimiento: Numero de solicitudes por segundo que pude aguantar el modelo
+    - Complejidad del modelo: Capacidad de Maquina
+    - Despliegue en la nube: Predicciones a traves de internet. Modelos complejos y de alta latencia.
+    - Despliegue on the edge: En el dispositivo, modelos poco complejos y de baja latencia. (dispositivos moviles).
+- Herramientas de despligue mas usadas: 
+    - **Locales:** No permiten llevar el modelo a produccion. Se despliegan localmente
+        - FlaskAPI: Empaqueta modelo como API, para ingresar desde nuestro navegador.
+        - TensorFlow o TorchServe: Pocas lineas de codigo, permiten desplegar modelos localmente.
+        - On the edge
+    - **Out of the box:** 
+        - StreamLite: Se aloja el codigo en un servidor, con ciertas restricciones de memoria y computo
+    - **En la nube**
+        - El computo se hace en servidores remotos. Eje: AWS, Google Could, etc.
+        - Incluye todo el servicio de ML Operations
+
+
+7. **Mantenimiento y actualizacion**
+Monitoreo del desempeño del modelo en producción y realizar actualizaciones periódicas para mantener su precisión y relevancia. 
+
+### Video: EL MONITOREO en el Machine Learning
+- Machine Learning Operations!
+- Desplegar el modelo no es la ultima fase del proceso, porque puede sufrir una degradacion en el desempeño
+- Los fallos en el desempeño pueden ser por: Fallos de Software (factores externos) y Fallos del Modelo
+    - Fallos del modelo: Los mas comunes son "Variacion en la distribucion". Deriva de datos y deriva de conceptos.
+- Tipos de Monitoreo
+    - Monitoreo con metricas globales: No permite ver ls razones de fondo que dan esa degradacion.
+    - Monitoreo a traves de sitribuciones estadisticas: Periodicamente calcular pruebas estadisticas, y ver diferencias significativas, si las hay, habria deriva de datos. Si es razonablemente gradne, seria Deriva de Cooncepto.
+ 
+# Miguel Angel Valencia Ortiz
+
+***********************************************************************************************************************************************
+
