@@ -1,6 +1,26 @@
 # Tema2_TrabajoColaborativo
 Carlos Andres Giraldo Saldarriaga
+Fases Típicas del ciclo de vida del Aprendizaje de Máquina
+1. Identificación del problema:
+Definir claramente el objetivo del proyecto y determinar como el aprendizaje de máquina puede ayudar a alcanzar el objetivo.
 
+2. Recolección de datos:
+Una vez identificado el problema, la siguiente fase es la recolección de datos, estos datos serán utilizados para entrenar el modelo. Es importante asegurarse de que los datos sean relevantes, precisos y representativos del problema que se está tratando de resolver.
+
+3. Preparación de los datos:
+Los datos crudos raramente están listos para ser usados directamente para el modelo. La preparación de datos implica limpiar los datos, manejar los valores faltantes, normalizar y escalar las caracteristicas y dividir los datos en conjunto de entrenamiento y prueba.
+
+4. Ingeniería de datos:
+En esta fase, se seleccionan y entrenan modelos de aprendizaje de maquina, utilizando datos preparados. Esta etapa puede incluir la selección de algoritmos, la creacion de caracteristica (featuring engeniering), y la realización de ajustes de hiperparametros para optimizar el rendimiento del modelo.
+
+5. Evaluación del modelo:
+Una vez el modelo ha sido entrenado, es crucial evaluar su desempeño. Esto implica medir la precision, , la exactitud, el recall, la F1-score, entre otras metricas, usando el conjunto de prueba. La evaluación ayuda a determinar si el modelo es suficientemente bueno para ser desplegado.
+
+6. Desplieque:
+Desplegar el modelo significa ponerlo en producción para que pueda ser utiliado en un entorno real. Esto puede implicar la integración del modelo en aplicaciones existentes, la creación de API´s y la configuración de infraestructura para manejar las predicciones en tiempo real.
+
+7. Mantenimiento y actualización:
+El ciclo de vida de una aplicacion no termina en el despliugue. Es importante monitorear el desempeño del modelo en producción y realizar actualizaciones periodicas para mantener su precisión y relevancia. Estoa puede implicar reentrenar el modelo con nuevos datos o ajustar sus parametros.
 Maria Victoria Valencia Arango
 
 ## Historia y ciclo de vida de una aplicación de Aprendizaje de Máquina
