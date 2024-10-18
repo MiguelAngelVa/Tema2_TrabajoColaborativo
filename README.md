@@ -308,8 +308,17 @@ Para estos conjuntos de entrenamientos se pueden tomar porciones de datos 70% pa
 
 Claudia Cardenas
 
-Luis Angel Montoya Suárez 
+Luis Angel Montoya Suárez
+Diagrama de procesos ML
+1. Identificación de un problema
+2. Recoración de datos
+3.  Reparación de datos
+4.  Ingeniería de modelos. 
+5.  Evaluación del modelo
+6. Despliegue
+7. Mantenimiento de actualización
 
+   
 Yessica Marcela Triana Cordoba
 
 Luis Fernando Meneses Caviedes
