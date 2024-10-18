@@ -650,6 +650,7 @@ etapas estructuradas que aseguran efectividad, precision y utilidad de una app
 Diana Maribel Balaguera Arroyave
 
 Sebastian Castañeda Garcia
+
 Machine Learning: Enseñale a una computadora a aprender de la misma forma en que aprende un humano
 en la programación tradicional se le dan la reglas a una computadora para que encuentre las respuestas en cambio en el machine learning se le dan las respuestas a la computadora y que sea la que encuentre las reglas. en un programa de machine learning, se obtiene un conjunto de datos con patrones inherentes y la computadora aprende cuales son esos patrones.
 
