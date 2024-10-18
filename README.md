@@ -171,6 +171,20 @@ El ciclo de vida de una aplicación de aprendizaje automático no finaliza con e
 Ximena Perez Burgos
 
 Wilmer Jamioy Tisoy 
+# Tema 2 -Historia Ciclo de vida de una aplicación de Aprendizaje de máquina
+
+Machine Learning representa un nuevo paradigma en la programación, donde en lugar de programar reglas explícitas en un lenguaje como Java o C ++, se entrena un sistema con datos para inferir las reglas por sí mismo.
+
+## Pasos 
+
+1. Identificación del Problema
+2. Recolección de Datos
+3. Preparación de Datos
+4. Ingeniería de Modelos
+5. Evaluación del Modelo
+6. Despliegue
+7. Mantenimiento y Actualización
+
 
 Jhoksser Fernando Mejía Ramos
 
